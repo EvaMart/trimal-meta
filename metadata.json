@@ -1,14 +1,11 @@
 {
-    "@context": {
-        "@import": "https://openebench.bsc.es/bioschemas/oebtools.jsonld"
-    },
     "@id": "https://openebench.bsc.es/bioschemas/tools/observatory:trimal:1.4/cmd",
     "bioschemas:input": [
         {
             "@type": "https://bioschemas.org/FormatParameter",
             "bioschemas:encodingFormat": " "
         }
-    ],
+    ],    
     "bioschemas:output": [
         {
             "@type": "https://bioschemas.org/FormatParameter",
@@ -45,12 +42,12 @@
         }
     ],
     "schema:codeRepository": [
-        "https://github.com/scapella/trimal",
+        "https://github.com/scapella/trimal"
     ],
     "schema:dateModified": "10/30/2023T16:10:14Z",
     "schema:description": "Tool for the automated removal of spurious sequences or poorly aligned regions from a multiple sequence alignment.",
     "schema:downloadURL": [
-        "https://anaconda.org/bioconda/trimal/1.4.1/download/linux-64/trimal-1.4.1-0.tar.bz2",
+        "https://anaconda.org/bioconda/trimal/1.4.1/download/linux-64/trimal-1.4.1-0.tar.bz2"
     ],
     "schema:featureList": [
         "edam:operation_0492"
@@ -80,5 +77,15 @@
             "@id": "http://trimal.cgenomics.org/getting_started_with_trimal_v1.2"
         }
     ],
-    "schema:softwareVersion": "1.4"
+    "schema:softwareVersion": "1.4",
+    "schema:isAccessibleForFree": "true",
+    "schema:citation": [
+        "https://academic.oup.com/bioinformatics/article/25/15/1972/213148"
+    ],
+    "schema:discussionURL": [
+        "https://github.com/EvaMart/trimal-meta/issues"
+    ],
+    "schema:usageInfo": [
+        "http://trimal.cgenomics.org/getting_started_with_trimal_v1.2"
+    ]
 }
