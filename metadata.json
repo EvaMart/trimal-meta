@@ -1,0 +1,84 @@
+{
+    "@context": {
+        "@import": "https://openebench.bsc.es/bioschemas/oebtools.jsonld"
+    },
+    "@id": "https://openebench.bsc.es/bioschemas/tools/observatory:trimal:1.4/cmd",
+    "bioschemas:input": [
+        {
+            "@type": "https://bioschemas.org/FormatParameter",
+            "bioschemas:encodingFormat": " "
+        }
+    ],
+    "bioschemas:output": [
+        {
+            "@type": "https://bioschemas.org/FormatParameter",
+            "biochemas:encodingFormat": "edam:format_1982"
+        },
+        {
+            "@type": "https://bioschemas.org/FormatParameter",
+            "biochemas:encodingFormat": "edam:format_1997"
+        },
+        {
+            "@type": "https://bioschemas.org/FormatParameter",
+            "biochemas:encodingFormat": "edam:format_1998"
+        },
+        {
+            "@type": "https://bioschemas.org/FormatParameter",
+            "biochemas:encodingFormat": "edam:format_1929"
+        },
+        {
+            "@type": "https://bioschemas.org/FormatParameter",
+            "biochemas:encodingFormat": "edam:format_2330"
+        }
+    ],
+    "schema:additionalType": "cmd",
+    "schema:applicationCategory": "cmd",
+    "schema:applicationSubcategory": [
+        "edam:topic_0160",
+        "edam:topic_3168",
+        "edam:topic_0080"
+    ],
+    "schema:author": [
+        {
+            "@type": "https://schema.org/Person",
+            "schema:name": "Salvador Capella-Gutierrez"
+        }
+    ],
+    "schema:codeRepository": [
+        "https://github.com/scapella/trimal",
+    ],
+    "schema:dateModified": "10/30/2023T16:10:14Z",
+    "schema:description": "Tool for the automated removal of spurious sequences or poorly aligned regions from a multiple sequence alignment.",
+    "schema:downloadURL": [
+        "https://anaconda.org/bioconda/trimal/1.4.1/download/linux-64/trimal-1.4.1-0.tar.bz2",
+    ],
+    "schema:featureList": [
+        "edam:operation_0492"
+    ],
+    "schema:license": [
+        {
+            "@type": "https://schema.org/CreativeWork",
+            "schema:name": "GNU General Public License version 2.0 (GPLv2)"
+        },
+        {
+            "@type": "https://schema.org/CreativeWork",
+            "schema:name": "GNU General Public License v3 or later (GPLv3+)"
+        }
+    ],
+    "schema:name": "trimal",
+    "schema:operatingSystem": [
+        "Linux",
+        "Windows",
+        "macOS"
+    ],
+    "schema:requirements": [
+        "make",
+        "compiler_cxx"
+    ],
+    "schema:softwareHelp": [
+        {
+            "@id": "http://trimal.cgenomics.org/getting_started_with_trimal_v1.2"
+        }
+    ],
+    "schema:softwareVersion": "1.4"
+}
