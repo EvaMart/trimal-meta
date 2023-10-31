@@ -1,6 +1,6 @@
 {
     "@context": {
-        "@import": "https://openebench.bsc.es/bioschemas/oebtools.jsonld"
+        "@import": "https://openebench.bsc.es/bioschemas/bioschemas.jsonld"
     },
     "@id": "https://openebench.bsc.es/bioschemas/tools/observatory:cutadapt:1.9.1/cmd",
     "@type": "htpps://openebench.bsc.es/bioschemas/oebtools#cmd",
