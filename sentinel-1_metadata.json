@@ -1,6 +1,6 @@
 {
     "@context": {
-        "@import": "https://openebench.bsc.es/bioschemas/oebtools.jsonld"
+        "@import": "https://openebench.bsc.es/bioschemas/bioschemas.jsonld"
     },
     "@id": "https://openebench.bsc.es/bioschemas/tools/observatory:sentinel-1:None/undefined",
     "@type": "htpps://openebench.bsc.es/bioschemas/oebtools#undefined",
