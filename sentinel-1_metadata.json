@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "@import": "https://openebench.bsc.es/bioschemas/oebtools.jsonld"
+    },
+    "@id": "https://openebench.bsc.es/bioschemas/tools/observatory:sentinel-1:None/undefined",
+    "@type": "htpps://openebench.bsc.es/bioschemas/oebtools#undefined",
+    "schema:additionalType": "undefined",
+    "schema:applicationCategory": "undefined",
+    "schema:applicationSubcategory": [
+        "edam:topic_3837",
+        "edam:topic_0102",
+        "edam:topic_3050"
+    ],
+    "schema:author": [
+        {
+            "@type": "https://schema.org/Person",
+            "schema:name": "Soyeon Bae"
+        }
+    ],
+    "schema:dateModified": "10/31/2023T14:11:32Z",
+    "schema:description": "Radar vision in the mapping of forest biodiversity from space.",
+    "schema:featureList": [
+        "edam:operation_3435",
+        "edam:operation_2429",
+        "edam:operation_2940"
+    ],
+    "schema:name": "sentinel-1"
+}
